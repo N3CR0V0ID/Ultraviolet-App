@@ -19,7 +19,7 @@ RUN pnpm install
 
 COPY . /app
 
-EXPOSE 8080
+#EXPOSE 8080
 
 ENTRYPOINT [ "node" ]
 CMD ["src/index.js"]
