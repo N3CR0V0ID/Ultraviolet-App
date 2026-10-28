@@ -68,5 +68,10 @@ function shutdown() {
 }
 
 server.listen({
-	port,
+	const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Application successfully listening on port ${PORT}`);
+});
+
 });
