@@ -67,11 +67,8 @@ function shutdown() {
 	process.exit(0);
 }
 
+// Bind to the port and bind to all external interfaces (0.0.0.0) safely
 server.listen({
-	const PORT = process.env.PORT || 8080;
-
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Application successfully listening on port ${PORT}`);
-});
-
+	port: port,
+	host: "0.0.0.0"
 });
