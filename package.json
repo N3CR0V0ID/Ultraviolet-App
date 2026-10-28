@@ -1,7 +1,7 @@
 {
-	"name": "uv-app",
+	"name": "nova",
 	"version": "1.0.0",
-	"description": "Ultraviolet instance",
+	"description": "thingy",
 	"type": "module",
 	"engines": {
 		"node": ">=24.0.0"
@@ -13,10 +13,10 @@
 		"lint:fix": "eslint ./src/ --fix"
 	},
 	"keywords": [
-		"proxy"
+		"thing"
 	],
 	"packageManager": "pnpm@10.28.0",
-	"author": "",
+	"author": "N3CR0V0ID",
 	"license": "GPL-3.0-or-later",
 	"devDependencies": {
 		"eslint": "^9.39.2",
